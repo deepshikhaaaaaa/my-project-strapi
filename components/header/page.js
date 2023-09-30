@@ -1,8 +1,9 @@
 'use client'
-import Nexthead from "./nexthead"
-import Herosection from "./herosection"
+
 
 export default function Header() {
+    // console.log(props.dataa)
+
     return (
 
 
@@ -25,8 +26,7 @@ export default function Header() {
                 </li>
             </ul>
         </nav>
-        <Nexthead></Nexthead>
-        <Herosection></Herosection>
+       
        </div>
 
     )
